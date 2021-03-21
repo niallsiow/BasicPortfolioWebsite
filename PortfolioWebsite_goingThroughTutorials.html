@@ -1,54 +1,65 @@
 <!DOCTYPE html>
-<html>
-    <body style="background-color: darkgoldenrod;">
+<html lang="en-us">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niall Siow Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
 <!-- notes on design -->
-<!-- embedded gifs of clips of my unity work would look cool
+<!-- 
+    embedded gifs of clips of my unity work would look cool
     maybe a title, with a side by side of description | gif
-    then below a link to a youtube video + github repo?-->
+    then below a link to a youtube video + github repo?
+-->
 
-<!-- having different sections for different work would also be nice
-    use this chance to also build up a youtube portfolio?-->
-
-
+<!-- 
+    having different sections for different work would also be nice
+    use this chance to also build up a youtube portfolio?
+-->
 <h1>Portfolio - Niall Siow</h1>
+<!-- <h2>Unity Projects</h2> -->
+<!-- <p style=text-align:center>About me:</p> -->
+<p style=text-align:center>
+    Hi, my name is Niall, Aspiring Software Engineer. Below you'll find a collection
+    of projects I've made in Unity.
+</p>
 
-<h2>Unity</h2>
+<main>
+<!--
+    could include a project list at the top of each page
+    <h3>List of Projects</h3>
+    <p><a href="#Project3">Project 3</a></p>
+-->
+<div class="section_div project_section_a postion_relative">
+<h3>Rootin Tootin Kapo Shootin</h3>
+<img src="images/RTSK_fullvid.gif" alt="Rootin Tootin Kapo Shootin Gameplay gif" class="align_right">
+<br>
 
-<p style="background-color: aqua;">Hi, my name is <b>Niall</b>. <i>Aspiring</i> <em>Software</em> Engineer.</p>
+<p class="paragraph_description">2D sidescrolling shooter made with a team for a Hackathon with the theme 'Infinite Power'.
+You start out weak, you can pick up an infinite number of powerups that stack on top of each other,
+eventually granting you infinite power.
+</p>
+<p>Languages/Technologies used</p>
+<ul>
+    <li>C#</li>
+    <li>Unity</li>
+</ul>
+<a href="https://github.com/niallsiow/HumanAnts" target="_blank">GitHub</a>
+<a href="https://github.com/niallsiow/HumanAnts" target="_blank">itch.io</a>
+</div>
 
-<main style="background-color:darkcyan">
-    <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Project 1</h3>
+<div class="section_div">
+<h3>Project 2</h3>
+<img src="images/TestImage.png" alt="test image 2" class="align_right">
+</div>
 
-    <img src="TestImage.png" alt="test image 1">
-
-    <br>
-    
-    <a href="https://www.github.com">link to the relevant github repo</a>
-
-    <hr>
-
-    <h3 style="text-align: center;">Project 2</h3>
-
-    <img src="images/TestImage.png" width="100" height ="100" alt="test image 2">
-
-    <hr>
-
-    <h3>example of image with a tooltip/title</h3>
-
-    <img src="images/TestImage.png" title="this is a test image">
-
-    <pre>
-
-        Roses are red,
-        
-        Violets are blue,
-
-        My wife just left me,
-
-        What's up with you?
-
-    </pre>
-
+<div class="section_div project_section_a position_relative">
+<h3 id="Project3">Project 3</h3>
+<img src="images/TestImage.png" title="this is a test image" class="align_right">
+</div>
 
 </main>
 
