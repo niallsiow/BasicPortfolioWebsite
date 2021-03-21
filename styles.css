@@ -66,6 +66,7 @@ div{
     padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
     
 }
 
@@ -75,10 +76,6 @@ div{
 
 .project_section_a{
     background-color: #20639b;
-}
-
-.position_relative{
-    position: relative;
 }
 
 .align_left{
